@@ -1,0 +1,22 @@
+{
+    "name": "tomtudu333/inspire",
+    "description": "A simple package for practicing",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Tomtudu333\\Inspire\\": "src/",
+            "Database\\Factories\\": "database/factories/",
+            "Database\\Seeders\\": "database/seeders/",
+            "Tomtudu333\\Inspire\\": "packages/Tomtudu333/inspire/src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Thomas Tudu",
+            "email": "tomtudu@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0.1"
+    }
+}
